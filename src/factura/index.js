@@ -48,6 +48,7 @@ const FacturaView = () => {
                     <div>Dirección: Calle 67N # 11-47</div>
                     <div>Celular: 3128808853</div>
                     <div>Popayán-Cauca</div>
+                    <div>Regimen Simplificado</div>
                     <div>----------------------------------------------------------------------</div>
                     <div>Fecha: {formatDate(currentTime)}</div>
                     <div>----------------------------------------------------------------------</div>
