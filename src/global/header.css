@@ -1,0 +1,30 @@
+/* header.js */
+.header-container {
+    position: fixed;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.header-titulo-container {
+    display: flex;
+}
+
+.header-titulo {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.header-logo-titulo {
+    width: 100%;
+    margin: 0px 5px;
+    max-width: 55px;
+}
+
+.header-subtitulo {
+    padding: 5px;
+}

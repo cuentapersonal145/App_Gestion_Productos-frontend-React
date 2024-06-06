@@ -1,0 +1,52 @@
+.encabezado {
+    padding-top: 90px;
+}
+
+.footer {
+    padding-bottom: 100px;
+}
+
+.page-content {
+    margin: 20px;
+    display: flex;
+}
+
+.page-content-izq {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.page-content-der {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.page-content-der-1 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 18px;
+}
+
+.total-factura {
+    font-size: 29px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.btn-to-go-print {
+    padding: 6px 16px;
+    margin: 0px 10px;
+}
+
+@media (max-width:1300px) {
+    .footer-section {
+        width: 100%;
+    }
+}
+
+@media (max-width:860px) {
+    .footer-container {
+        display: none;
+    }
+}

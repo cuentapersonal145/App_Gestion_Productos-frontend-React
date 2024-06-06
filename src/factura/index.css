@@ -1,0 +1,37 @@
+.factura-content {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    line-height: 1;
+}
+
+.content-table {
+    display: flex;
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.padding-y {
+    padding: 0px 5px;
+}
+
+.max-with {
+    max-width: 200px;
+}
+
+.conteiner-btn-print {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
