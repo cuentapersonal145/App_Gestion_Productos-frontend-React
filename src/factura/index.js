@@ -2,6 +2,7 @@ import { React, useState, useEffect, useRef } from 'react'
 import { FaPrint } from "react-icons/fa";
 import { Button } from 'react-bootstrap';
 import { useReactToPrint } from 'react-to-print';
+import logo from '../img/logo.png'
 import './index.css';
 
 const FacturaView = () => {
@@ -43,12 +44,17 @@ const FacturaView = () => {
             </div>
             <div ref={printRef} className='factura-content'>
                 <div className='text-align-center'>
-                    <div>GRANERO LA ECONOMÍA DEL NORTE</div>
-                    <div>NIT: 1002958486-6</div>
-                    <div>Dirección: Calle 67N # 11-47</div>
-                    <div>Celular: 3128808853</div>
-                    <div>Popayán-Cauca</div>
-                    <div>Regimen Simplificado</div>
+                    <div className='container-data-empresa'>
+                        <img className="logo-factura" src={logo} alt="Logo FIT" />
+                        <div>
+                            <div>GRANERO LA ECONOMÍA DEL NORTE</div>
+                            <div>NIT: 1002958486-6</div>
+                            <div>Dirección: Calle 67N # 11-47</div>
+                            <div>Celular: 3128808853</div>
+                            <div>Popayán-Cauca</div>
+                            <div>Regimen Simplificado</div>
+                        </div>
+                    </div>
                     <div>----------------------------------------------------------------------</div>
                     <div>Fecha: {formatDate(currentTime)}</div>
                     <div>----------------------------------------------------------------------</div>

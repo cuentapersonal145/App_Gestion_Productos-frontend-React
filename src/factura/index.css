@@ -35,3 +35,14 @@
     justify-content: center;
     margin: 10px;
 }
+
+.container-data-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-factura {
+    height: 75px;
+    margin-bottom: 2px;
+}
