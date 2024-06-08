@@ -87,7 +87,7 @@ const HomeView = () => {
                 </div>
                 <div className='page-content-der'>
                     <div className='page-content-der-1'>
-                        <div className='total-factura'>Total: {totalFactura}</div>
+                        <div className='total-factura'>Total: {new Intl.NumberFormat("de-DE").format(totalFactura)}</div>
                         <div>
                             <Button className='btn-to-go-print' variant="danger" size='lg' onClick={handleClickClear}>Limpiar</Button>
                             <Button className='btn-to-go-print' variant="primary" size='lg' onClick={handleClickFactura}>Generar Factura</Button>
