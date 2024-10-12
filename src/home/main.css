@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .total-factura {
@@ -35,8 +35,8 @@
 }
 
 .btn-to-go-print {
-    padding: 6px 16px;
-    margin: 0px 10px;
+    padding: 5px 16px;
+    margin: 5px 5px;
 }
 
 @media (max-width:1300px) {
@@ -46,7 +46,16 @@
 }
 
 @media (max-width:860px) {
-    .footer-container {
+    .footer-container, .encabezado, .header-container {
         display: none;
+    }
+}
+
+@media (max-width:785px) {
+    .page-content-der {
+        display: none;
+    }
+    .page-content-izq {
+        width: 100%;
     }
 }
