@@ -58,4 +58,11 @@
     .page-content-izq {
         width: 100%;
     }
+    .card-container {
+        width: 150px;
+        height: 140px;
+    }
+    .description1-card, .description2-card {
+        font-size: 14px;
+    }
 }
