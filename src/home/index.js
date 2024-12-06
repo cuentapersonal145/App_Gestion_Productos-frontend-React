@@ -56,7 +56,7 @@ const HomeView = () => {
             }
             setSelected(null);
         }
-    }, [selected]);
+    }, [selected, elementsSelected]);
 
     useEffect(() => {
         let suma = 0;
